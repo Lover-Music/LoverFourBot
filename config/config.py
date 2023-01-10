@@ -9,10 +9,10 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "13861846"))
 API_HASH = getenv("API_HASH", "4001710ae09a26c8326db4776b876d01")
-BOT_TOKEN = getenv("BOT_TOKEN", "5657806589:AAFU5COS7-Ao98snL_LX68ucdK_oROlT_i4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5896449060:AAEBs7WsNgRo-ZOt2GZcdqlnx-TUsZlZwYE")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898472056"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙇𝙊𝙑𝙀𝙍 ✘ 𝗧𝗖𝗖 [𝟭]")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙇𝙊𝙑𝙀𝙍 ✘ 𝗧𝗖𝗖")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1548904516").split()))
 SUPPORT_CHANNEL = getenv(
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQCzMdThQFFDQH2v2rLmmQjW2PBDAndpmUJwRsXDxPHS51ch0THau0dnoIWb4c2Fh_bW351MDDbmczZd-d8qyiMZdaCdmy1waqCu7nfFuMsTINw8DE9VNwi1sqxScJnoHWCyTUVzbA-mqs9gkUaGDvuDmCoqc7FOrm34PjIqbtxwP1dBq23msTN16A7SDrLTrp9UOgQnlqBx04Vb7ugxhsr84N3VHgPZ2Chi_FmdOv3aHfSxOViU1ihXhErN0UNDqaG-_D0IoF_zDO-HrFTVM-kZf7ixEH1QmKHnfUdWO6NAuNmckW3wjbKWlf6FNEesHhVMb5Xe0UmagaMRr46oBKrkAAAAAVKlSlsA")
+STRING1 = getenv("STRING_SESSION", "AQBVdoDhNXZ3bphK9rHWdWdiN0ojwYWO4YybFC1J-rnmch412kYTdBjDW6bsDNS-5ZtBOCOyGTI_XUKzP27jo2DVYyI8RXBgqmcqDmhDGwUFXXhE5dACuXWkeyV-_4Ep1_lJ-O1VijMfZT_s4sv0OoYy0i6iffmQwY8vJE4RflOXaOYbmuLDxhzsnjsdRuh2JIskHbhtcw3E953hth-agSsIyR2lDk2b-6H-6NcG5Q-pCPtm4cvay_fTzhZO3BRwtsb89apLH84Eaqn7Jj7_VINQhKTOEKB0AAwkRR5orvY-9e9iDEBRUx5gfW3LiV98kpwtQJm7VhYfkkdVag7OVA7-AAAAAVPR9HQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -92,7 +92,7 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/75b4b72e08fa0054c5f17.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
